@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+}
+
+.nav-color{
+    background: rgb(61, 55, 237);
+    background: linear-gradient(0deg, rgba(61, 55, 237, 1) 0%, rgba(9, 0, 137, 1) 49%);
+}
+
+.font-nav{
+    font-family: 'Readex Pro', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+.footer-container{
+    display: flex;
+    background-color: #0060CA;
+    font-family: 'Readex Pro', sans-serif;
+    color: #add5f7;
+    text-shadow: 1px 1px 2px black;
+    justify-content: space-between;
+
+}
+
+        /*SECCION DE CONTACTOS*/
+.footer-contact{
+    display: inline-block;
+}
+
+.footer-contact h3{
+   margin-left: 30px;
+}
+
+.footer-contact img {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+        /*SECCION DE REDES SOCIALES*/
+.footer-socialmedia{
+    display: inline-block;  
+    padding-right: 25%; 
+}
+
+.footer-socialmedia h3{
+    margin-left: 20px;
+}
+
+.footer-socialmedia li{
+    list-style: none;  
+    margin-left: 30px;   
+}
+
+.footer-socialmedia img{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 2px black;
+}
+
+.my-font{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: italic;
+}
